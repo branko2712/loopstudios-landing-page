@@ -1,0 +1,16 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 66.6%; }
+
+body {
+  font-family: "Alata", sans-serif;
+  color: white;
+  font-weight: 300;
+  line-height: 1.6; }
