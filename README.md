@@ -41,3 +41,4 @@ TOTAL: 12h.
 Spent effort:
 
 - 28.03.2021. - project setup (not included)
+- 03.04.2021. -

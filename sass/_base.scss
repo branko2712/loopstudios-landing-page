@@ -21,7 +21,7 @@ $bp-small: 25em; // 375px / 15px - base font size
 *::after {
     margin: 0;
     padding: 0;
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 
 html {

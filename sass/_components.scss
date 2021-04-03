@@ -1,0 +1,20 @@
+header{
+    .navigation{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3rem 2.5rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 3;
+
+        &__logo{
+            img{
+                width: 15rem;
+            }
+        }
+
+    }
+}
