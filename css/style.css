@@ -128,3 +128,32 @@ body {
   z-index: 3; }
   .navigation__logo img {
     width: 15rem; }
+
+.footer {
+  background: black;
+  text-align: center;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column; }
+  .footer__logo img {
+    height: 1.8rem; }
+  .footer__links {
+    list-style: none;
+    padding: 1rem 0; }
+    .footer__links li {
+      padding: 0.3rem 0; }
+      .footer__links li a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 100; }
+  .footer__social {
+    padding: 2rem 0; }
+    .footer__social img {
+      height: 2rem;
+      padding: 0 .5rem; }
+  .footer__credits {
+    font-size: 1rem;
+    color: #8c8c8c; }
+    .footer__credits a {
+      color: #8c8c8c; }

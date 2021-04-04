@@ -19,5 +19,44 @@
 
 
 .footer{
-    
+    background: $color-black;
+    text-align: center;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+
+    &__logo img{
+        height: 1.8rem;
+    }
+
+    &__links{
+        list-style: none;
+        padding: 1rem 0;
+        li{
+            padding: 0.3rem 0;
+            a{
+                text-decoration: none;
+                color: $color-white;
+                font-size: 1.5rem;
+                font-weight: 100;
+            }
+        }
+    }
+
+    &__social{
+        padding: 2rem 0;
+        img{
+            height: 2rem;
+            padding: 0 .5rem;
+        }
+    }
+
+    &__credits{
+        font-size: 1rem;
+        color: $color-gray;
+
+        a{
+            color: $color-gray;
+        }
+    }
 }
