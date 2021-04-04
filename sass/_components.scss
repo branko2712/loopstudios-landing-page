@@ -15,6 +15,57 @@
             }
         }
 
+        // Mobile
+
+        &__mobile{
+            flex-direction: column;
+            padding: 3rem 2.5rem;
+            &.active{
+                display: flex;
+            }
+            display: none;
+            position: fixed;
+            background: $color-black;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            z-index: 15;
+            overflow: hidden;
+
+            &__icons{
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                justify-self: flex-start;
+
+                img {
+                    height: 2rem;
+
+                    &#closeBtn{
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            ul{
+                list-style: none;
+                padding-top: 10rem;
+               li {
+                   a {
+                    color: $color-white;
+                    font-size: 2.5rem;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-weight: 100;
+
+               } }
+
+            }
+
+
+        }
+
     }
 
 
