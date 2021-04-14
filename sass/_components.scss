@@ -40,9 +40,10 @@
                 justify-self: flex-start;
 
                 img {
-                    height: 2rem;
-
+                    width: 15rem;
                     &#closeBtn{
+                        height: 2rem;
+                        width: 2rem;
                         cursor: pointer;
                     }
                 }
@@ -64,6 +65,10 @@
             }
 
 
+        }
+
+        #openBtn{
+            cursor: pointer;
         }
 
     }
