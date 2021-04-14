@@ -74,7 +74,10 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0; }
+    bottom: 0;
+    transition: background-color 0.2s linear; }
+    .creations__overlay:hover {
+      background-color: rgba(255, 255, 255, 0.493); }
   .creations__title {
     font-family: "Josefin Sans", sans-serif;
     font-size: 2.5rem;
@@ -85,7 +88,11 @@ body {
   .creations__card {
     width: 100%;
     height: 100%;
-    position: relative; }
+    position: relative;
+    cursor: pointer;
+    transition: color 0.2s linear; }
+    .creations__card:hover .creations__card__text {
+      color: black; }
     .creations__card__text {
       position: absolute;
       font-family: "Josefin Sans", sans-serif;
@@ -114,7 +121,12 @@ body {
       text-align: center;
       vertical-align: middle;
       padding: .8rem 3rem;
-      letter-spacing: 0.3rem; }
+      letter-spacing: 0.3rem;
+      cursor: pointer;
+      transition: background-color, color 0.2s linear; }
+      .creations__button button:hover {
+        background-color: black;
+        color: white; }
 
 .navigation {
   display: flex;
@@ -161,7 +173,8 @@ body {
         font-size: 2.5rem;
         text-decoration: none;
         text-transform: uppercase;
-        font-weight: 100; }
+        font-weight: 100;
+        position: relative; }
   .navigation #openBtn {
     cursor: pointer; }
 
@@ -182,14 +195,34 @@ body {
         text-decoration: none;
         color: white;
         font-size: 1.5rem;
-        font-weight: 100; }
+        font-weight: 100;
+        position: relative; }
   .footer__social {
     padding: 2rem 0; }
     .footer__social img {
       height: 2rem;
-      padding: 0 .5rem; }
+      width: 3rem;
+      padding: 0 .5rem;
+      position: relative;
+      cursor: pointer; }
   .footer__credits {
     font-size: 1rem;
     color: #8c8c8c; }
     .footer__credits a {
       color: #8c8c8c; }
+
+.animated-link:after {
+  background: none repeat scroll 0 0 white;
+  bottom: -0.5rem;
+  content: "";
+  display: block;
+  height: 0.3rem;
+  left: 50%;
+  position: absolute;
+  background: white;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0; }
+
+.animated-link:hover:after {
+  width: 100%;
+  left: 0; }
