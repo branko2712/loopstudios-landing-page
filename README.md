@@ -37,10 +37,12 @@ Users should be able to:
 ## Estimation
 
 ESTIMATE: 12h.
-TOTAL SPENT: 3.5h.
+TOTAL SPENT: 4.5h.
 
 Spent effort:
 
 - 28.03.2021. - project setup (not included) + 1h of dev time
 - 03.04.2021. - 1 dev time
 - 04.04.2021. - 1.5h dev time
+- 14.04.2021 - 1h dev time
+- 30.05.2021 -

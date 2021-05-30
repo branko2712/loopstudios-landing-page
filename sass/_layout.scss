@@ -155,3 +155,30 @@
         }
     }
 }
+
+@media screen and (min-width:33rem) {
+    .creations{
+        grid-template-columns: .8fr;
+        justify-content: center;
+
+    }
+}
+
+@media screen and (min-width:40rem) {
+    .about{
+        padding: 9rem 7rem;
+
+    }
+}
+
+
+@media screen and (min-width:51rem) {
+    .about{
+        padding: 9rem 7rem;
+
+    }
+
+    [class^="navigation__mobile"]{
+        display: none;
+    }
+}
